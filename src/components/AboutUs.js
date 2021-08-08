@@ -5,6 +5,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import img1 from "../img/python.jpeg";
 import img2 from "../img/image.jpeg";
 import img3 from "../img/BootCamp V1.0.jpeg";
+import facebook from "../img/facebook.png";
+import linkedin from "../img/linkedin.png";
+import youtube from "../img/youtube.png";
+import insta from "../img/insta.png";
+
 
 
 
@@ -65,6 +70,25 @@ function AboutUs() {
             <hr/>
             <br/>
             <br/>
+            <br/>
+            <h2 className="aboutus-h1-1"> SOCIAL MEDIA</h2>
+            
+            <img src={facebook} height="50px" width="50px" alt="img1"></img>
+            <p background color="black"><a  href ="https://www.facebook.com/CsupFB/"> facebook</a></p>
+            <br/>
+            <br/>
+
+            <img src={linkedin} height="50px" width="50px" alt="img1"></img>
+            <p background color="black"><a href ="https://www.linkedin.com/company/computer-society-university-of-peradeniya-csup/mycompany/"> <t/> linkedin</a></p>
+            <br/>
+            <br/>
+
+            <img src={youtube} height="50px" width="50px" alt="img1"></img>
+            <p background color="black"><a href ="https://www.youtube.com/c/CSUPComputerSocietyUniversityofPeradeniya"> <t/> youtube</a></p>
+            <br/>
+
+            <img src={insta} height="50px" width="50px" alt="img1"></img>
+            <p background color="black"><a href ="https://www.instagram.com/csup_insta/"> <t/> Instagram</a></p>
             <br/>
             <br/>
             <br/>
