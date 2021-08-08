@@ -22,7 +22,7 @@ function Registration() {
                 3rd year <input type="radio" name="year" label="3rd yeear"/>
                 4th year <input type="radio" name="year" label="4th year"/>
 
-				<label>Add comment</label>
+				<label>Any comment</label>
 				<textarea type="text"/>
 
                 
